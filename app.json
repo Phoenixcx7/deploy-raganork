@@ -19,12 +19,12 @@
             "value":"false"
         },
         "READ_MESSAGES": {
-            "description": "Bot will read all messages. Can be also false",
+            "description": "Bot will read all messages. Can be also true",
             "required": true,
-            "value":"false"
+            "value":"true"
         },
         "READ_COMMAND": {
-            "description": "Bot will read all commands (blue tick). Can be also false",
+            "description": "Bot will read all commands (blue tick). Can be also true",
             "required": true,
             "value":"true"
         },
@@ -51,7 +51,7 @@
         "BOT_NAME": {
             "description": "Name of AI chatbot",
             "required": true,
-            "value":"Raganork"
+            "value":"Phoenix"
         },
         "AUDIO_DATA": {
             "description": "Name of audio (take) name;name;image(url)",
@@ -81,7 +81,7 @@
         "ALLOWED": {
             "description": "Country codes allowed by antifake",
             "required": false,
-            "value":"91,48"
+            "value":"91,509"
         },
         "WARN": {
             "description": "Warn limit",
@@ -91,7 +91,7 @@
         "LANGUAGE": {
             "description": "Available languages: english,manglish,turkish",
             "required": false,
-            "value":"english"
+            "value":"french"
         },
         "AUTO_READ_STATUS": {
             "description": "View status updates automatically",
